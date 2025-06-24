@@ -16,7 +16,7 @@ services:
       - HOST=db
       - USER=odoo
       - PASSWORD=0g9EXX4j1q2r
-    command: odoo -d odoo --db_user=odoo --db_password=odoo -i base
+    command: odoo -c /etc/odoo/odoo.conf
     restart: always
 
   db:
