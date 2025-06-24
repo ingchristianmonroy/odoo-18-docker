@@ -15,7 +15,7 @@ services:
     environment:
       - HOST=db
       - USER=odoo
-      - PASSWORD=odoo
+      - PASSWORD=0g9EXX4"j/1(
     command: odoo -d odoo --db_user=odoo --db_password=odoo -i base
     restart: always
 
@@ -24,7 +24,7 @@ services:
     environment:
       - POSTGRES_DB=odoo
       - POSTGRES_USER=odoo
-      - POSTGRES_PASSWORD=odoo
+      - POSTGRES_PASSWORD=0g9EXX4"j/1(
     ports:
       - "5432:5432"
     volumes:
