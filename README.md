@@ -41,7 +41,7 @@ Para ejecutar los contenedores, asegúrate de tener instalados los siguientes pr
 Clona este repositorio en tu máquina local e ingresa a la carpeta del proyecto:
 
 ```bash
-git clone https://github.com/ingchristianmonroy/odoo-18-docker
+git clone https://github.com/ingchristianmonroy/odoo-18-docker.git
 cd odoo-18-docker
 ```
 
